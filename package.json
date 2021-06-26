@@ -22,7 +22,6 @@
   "scripts": {
     "test": "npm-run-all test:*",
     "test:lint": "eslint .",
-    "test:tape": "tape test/**/*.js",
     "test:audit": "npm audit --audit-level=high"
   },
   "devDependencies": {
